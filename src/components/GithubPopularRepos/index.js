@@ -13,7 +13,6 @@ const languageFiltersData = [
 ]
 
 const apiStatusObj = {
-  initial: 'initial',
   success: 'success',
   failure: 'failure',
   loading: 'loading',
@@ -24,7 +23,7 @@ class GithubPopularRepos extends Component {
   state = {
     selectedFilterId: 'ALL',
     githubReposList: [],
-    apiStatus: apiStatusObj.success,
+    apiStatus: apiStatusObj.loading,
   }
 
   componentDidMount() {
