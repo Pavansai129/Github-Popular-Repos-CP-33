@@ -1,0 +1,6 @@
+/* Write your CSS here */
+.list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
